@@ -8,7 +8,7 @@ const Header = () => {
     <div className='bg-blue-800 py-5 '>
         <div className='container mx-auto flex justify-between '>
             <span className='text-3xl text-white font-bold tracking-tighter'>
-                <Link to="/">Booking.com</Link>
+                <Link to="/">Comfort.com</Link>
             </span>
             <span className='flex space-x-7 pt-2 text-2xl font-bold  outline-none  '>
               {

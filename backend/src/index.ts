@@ -40,7 +40,7 @@ app.get('/',(req,res)=>{
 })
   
 
-const PORT = process.env.PORT || 8005;
+const PORT = process.env.PORT || 8001;
 app.listen(PORT,()=>{
-    console.log(`Server is running at ${8005}`)
+    console.log(`Server is running at ${8001}`)
 })
