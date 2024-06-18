@@ -3,7 +3,7 @@ export const hotelTypes=[
     "Boutique",
     "Luxury",
     "Ski Resort",
-    "Bus iness",
+    "Business",
     "Family",
     "Romantic",
     "Hiking Resort",
