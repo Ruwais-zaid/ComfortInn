@@ -1,6 +1,5 @@
-import React from 'react';
 import { useFormContext } from 'react-hook-form';
-import { hotelFacilities } from '../config/Hotel-options-config';
+import { hotelFacilities } from '../config/Hotel-options-config.tsx';
 import { HotelFormData } from './ManageHotel';
 
 const FacilitiesSection = () => {

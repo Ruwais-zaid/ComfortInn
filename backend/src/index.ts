@@ -36,13 +36,17 @@ app.use(
   })
 );
 
-app.use(express.static(path.join(__dirname, "/dist/frontend")));
+app.use(express.static(path.join(__dirname,"../../frontend/dist")))
+
 
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/my-hotels", myHotelRoutes);
 app.use("/api/hotels", hotelRoutes);
 app.use("/api/my-bookings", bookingRoutes);
+app.get('*', (req:Request, res:Response) => {
+  res.sendFile(path.join(__dirname, '../../frontend/dist/index.html'));
+});
 
 
 

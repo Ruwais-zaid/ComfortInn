@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { HotelType } from "../../../backend/src/shared/types";
 import { AiFillStar } from "react-icons/ai";
-import { FaCaretRight } from "react-icons/fa";
 type Props = {
   hotel: HotelType;
 };

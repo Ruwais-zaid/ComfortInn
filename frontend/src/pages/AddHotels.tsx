@@ -1,4 +1,3 @@
-import React from 'react';
 import ManageHotelForm from '../forms/ManageHotel';
 import { useMutation } from 'react-query';
 import { useAppContext } from '../context/Appcontext';

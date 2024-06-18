@@ -1,6 +1,6 @@
-import React, { createContext, useContext, ReactNode, useState } from 'react';
+import  { createContext, useContext, ReactNode, useState } from 'react';
 import Toast from '../components/Toast';
-import { isError, useQuery } from 'react-query';
+import { useQuery } from 'react-query';
 import * as apiClient from '../api-client';
 
 // Define the types for ToastMessage and AppContext
