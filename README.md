@@ -8,7 +8,6 @@
 
 ![Logo](https://res.cloudinary.com/ddfmbzizr/image/upload/v1718725166/Screenshot_2024-06-18_210548_bsd4lb.png)
 
-#------------------------------------------------------------------------>
 
 ![Logo](https://res.cloudinary.com/ddfmbzizr/image/upload/v1718725785/Screenshot_2024-06-18_211909_hzpb0r.png)
 
