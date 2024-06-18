@@ -1,0 +1,11 @@
+{
+    "version":2,
+    "name":"Booking Website",
+    "builds":[
+        {"src":"app.tsx","use":"@vercel/node"}
+
+    ],
+    "routes":[
+        {"src":"/(.*)","dest":"./frontend/src/App.tsx"}
+    ]
+}
