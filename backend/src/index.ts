@@ -17,7 +17,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-mongoose.connect("mongodb://localhost:27017/Comfort")
+mongoose.connect(process.env.MONGODB_CONNECTION_STRING as string)
   .then(() => {
     console.log('Connected to MongoDB');
   })
@@ -53,3 +53,4 @@ app.get('*', (req:Request, res:Response) => {
 app.listen(7000, () => {
   console.log("server running on localhost:7000");
 });
+export default app;
