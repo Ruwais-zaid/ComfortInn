@@ -70,6 +70,22 @@ Express.js: Web framework for Node.js.
 
 MongoDB: NoSQL database for storing data.
 
+Steps To See website
+
+1.Clone my Repository
+2.Create an environment varibale on cd backend/.env
+
+Mongo_db_Adress
+Cloudinary_name
+Cloudinary_secret
+Cloudinary_key
+Frontend_url
+Stripe_Secret_Key
+
+3.Go to the terminal cd backend
+4.npm install && npm start
+
+
 Mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js.
 
 JWT (JSON Web Tokens): For secure user authentication.
